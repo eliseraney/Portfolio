@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #382d72;
+  --secondary-color: #e5ccf4;
+  --third-color: #b7c2c6;
+  --fourth-color: #a080e1;
+  --fifth-color: #5c509c;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--third-color);
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  color: white;
+  width: 600px;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me {
+  background-color: var(--fifth-color);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--fifth-color);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.about-me:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+}
+
+.homepage {
+  text-align: center;
+  font-size: 12px;
+}
+
+.email {
+  text-align: center;
+}
