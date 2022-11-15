@@ -48,6 +48,20 @@ a {
 }
 
 .navbar {
+  background-color: var(--primary-color);
+  color: var(--fourth-color);
+}
+
+.nav-link {
+  color: var(--fourth-color);
+}
+
+.active {
+  color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  color: white;
 }
 
 .learn-more {
@@ -68,6 +82,7 @@ a {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   cursor: pointer;
+  color: white;
 }
 
 .homepage {
