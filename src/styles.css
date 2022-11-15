@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #382d72;
-  --secondary-color: #e5ccf4;
-  --third-color: #b7c2c6;
-  --fourth-color: #a080e1;
-  --fifth-color: #5c509c;
+  --primary-color: #85dcb8;
+  --secondary-color: #c38d9e;
+  --third-color: #41b3a3;
+  --fourth-color: #3f7083;
+  --fifth-color: #a75e5b;
 }
 
 body {
@@ -21,6 +21,7 @@ h2 {
   text-align: center;
   color: var(--third-color);
   font-size: 36px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -46,16 +47,19 @@ a {
   text-decoration: none;
 }
 
+.navbar {
+}
+
 .learn-more {
   display: flex;
   justify-content: center;
 }
 
 .about-me {
-  background-color: var(--fifth-color);
+  background-color: var(--third-color);
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid var(--fifth-color);
+  border: 1px solid var(--third-color);
   cursor: pointer;
   margin: 10px;
 }
