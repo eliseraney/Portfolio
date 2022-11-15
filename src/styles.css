@@ -141,6 +141,7 @@ img {
   img.project-screenshot {
     display: block;
     margin: 0 auto;
+    width: 400px;
   }
 
   h1 {
@@ -161,5 +162,16 @@ img {
     text-align: center;
     margin: 0 auto;
     width: 200px;
+  }
+
+  a.button-learn-more:hover {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  a.button.button-learn-more.escape {
+    margin-bottom: 50px;
   }
 }
