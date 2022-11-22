@@ -35,7 +35,7 @@ h3 {
 
 p {
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   text-align: center;
   color: white;
   width: 600px;
@@ -92,13 +92,15 @@ img {
   margin-left: 0;
 }
 
-.button-about-me {
+.button-about-me,
+.button-portfolio {
   background-color: var(--third-color);
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--third-color);
   cursor: pointer;
   margin: 10px;
+  margin-bottom: 30px;
 }
 
 .button-learn-more {
@@ -111,7 +113,8 @@ img {
   margin: 0;
 }
 
-.button-about-me:hover {
+.button-about-me:hover,
+.button-portfolio:hover {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   cursor: pointer;
