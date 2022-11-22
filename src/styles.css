@@ -33,6 +33,10 @@ h3 {
   margin-bottom: 50px;
 }
 
+h3.email {
+  margin-bottom: 10px;
+}
+
 p {
   margin: 0 auto;
   margin-bottom: 30px;
