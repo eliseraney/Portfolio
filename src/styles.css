@@ -140,6 +140,10 @@ img {
   text-align: center;
 }
 
+.project-portfolio {
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   img.project-screenshot {
     display: block;
